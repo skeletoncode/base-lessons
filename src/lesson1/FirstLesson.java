@@ -9,8 +9,7 @@ package lesson1;
 public class FirstLesson {
     // точка входа psvm + Enter
     public static void main(String[] args) {
-        // консольный вывод
-        // sout + Enter
+        // консольный вывод sout + Enter
         System.out.println("консольный вывод");
 
         // объявление переменых типДанных имяПеременной;
@@ -90,8 +89,7 @@ public class FirstLesson {
         System.out.println(height <= width); // false
 
         // тернарный оператор ?
-        // переменная = логическое выражение/условие ?
-        //                             выражение1 : выражение2;
+        // переменная = логическое выражение/условие ? выражение1 : выражение2;
 
         double sum = bill > 1000 ? bill - bill * 0.1 : bill;
         System.out.println(sum);
